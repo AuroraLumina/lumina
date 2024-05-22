@@ -1,7 +1,7 @@
 # AuroraLumina Skeleton Application
 This makes setting up a Aurora application quick and easy.
 
-#Install
+# Install
 You will require PHP 8.3 or newer.
 
 ```bash
