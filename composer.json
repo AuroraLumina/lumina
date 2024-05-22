@@ -1,0 +1,14 @@
+{
+    "name": "auroralumina/lumina",
+    "type": "project",
+    "keywords": ["auroralumina", "framework"],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "auroralumina/framework": "^1.1"
+    }
+}
