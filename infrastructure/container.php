@@ -1,7 +1,5 @@
 <?php
 
-namespace App;
-
 use App\Services\HelloService;
 use AuroraLumina\Interface\ContainerInterface;
 

@@ -6,8 +6,8 @@ use AuroraLumina\Interface\ServiceInterface;
 
 class HelloService implements ServiceInterface
 {
-    public function xD()
+    public function working()
     {
-        return 'xD';
+        return ' service is working';
     }
 }
