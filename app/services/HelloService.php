@@ -2,12 +2,10 @@
 
 namespace App\Services;
 
-use AuroraLumina\Interface\ServiceInterface;
-
-class HelloService implements ServiceInterface
+class HelloService
 {
-    public function working()
+    public function hourMinute()
     {
-        return ' service is working';
+        return date("H:i");
     }
 }

@@ -11,6 +11,6 @@ return function (RouterInterface $route)
     $route->get('/hello/{name}', function(ServerRequest $request, array $args, HelloService $helloService)
     {
         $name = $args['name'];
-        return "Hello {$name} {$helloService->working()}";
+        return ['name' => $name];
     });
 };

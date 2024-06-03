@@ -9,6 +9,7 @@
         }
     },
     "require": {
-        "auroralumina/framework": "^1.1"
+        "auroralumina/framework": "1.2",
+        "auroralumina/view": "1.1"
     }
 }
